@@ -2,13 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function(props) {
-  // Data that we'll need:
-  // - first name
-  // - last name
-  // - status
-  // - id: id
-  // - image: img
-
   const { id, img, first_name, last_name, status } = props.entry;
   return (
     <div className="friend-list-card">
