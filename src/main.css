@@ -1,0 +1,13 @@
+.friend-list-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.friend-info-image {
+  display: flex;
+}
+
+.friend-info {
+  padding: 5px;
+}
